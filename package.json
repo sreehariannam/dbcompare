@@ -1,0 +1,50 @@
+{
+  "name": "dbcompare",
+  "version": "1.0.2",
+  "description": "A powerful database schema comparison tool for PostgreSQL, MySQL databases and SQL Server databases",
+  "main": "dist/index.js",
+  "bin": {
+    "dbcompare": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "database",
+    "schema",
+    "compare",
+    "postgresql",
+    "postgres",
+    "mysql",
+    "sqlserver",
+    "mssql",
+    "sql-server",
+    "diff",
+    "migration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "inquirer": "^8.2.5",
+    "mssql": "^12.1.0",
+    "mysql2": "^3.6.5",
+    "open": "^8.4.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.10",
+    "@types/mssql": "^9.1.8",
+    "@types/node": "^20.10.5",
+    "@types/pg": "^8.10.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

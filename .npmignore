@@ -1,0 +1,58 @@
+# Source files
+src/
+tsconfig.json
+
+# Examples and tests
+examples/
+test/
+tests/
+*.test.ts
+*.spec.ts
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Docs
+docs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files (examples)
+*.html
+*.txt
+dbcompare-*.html
+dbcompare-*.txt
+
+# Node
+node_modules/
+
+# Keep these in the package
+!dist/**/*
+!README.md
+!LICENSE
+!package.json
+
+.npmrc
